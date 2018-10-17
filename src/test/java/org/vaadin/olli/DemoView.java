@@ -8,9 +8,8 @@ import com.vaadin.flow.router.Route;
 public class DemoView extends Div {
 
     public DemoView() {
-        ClipboardHelper clipboardHelper = new ClipboardHelper();
         Button button = new Button("click this button to copy some stuff to the clipboard");
-        clipboardHelper.wrap(button);
+        ClipboardHelper clipboardHelper = new ClipboardHelper("some stuff", button);
         add(clipboardHelper);
     }
 }
