@@ -5,9 +5,9 @@
 
     <groupId>org.vaadin.olli</groupId>
     <artifactId>clipboardhelper</artifactId>
-    <version>1.0.0</version>
+    <version>1.0-SNAPSHOT</version>
     <name>ClipboardHelper</name>
-    <description>Clipboard helper add-on for Vaadin 10</description>
+    <description>Integration of paper-slider for Vaadin 11</description>
 
     <properties>
         <vaadin.version>10.0.2</vaadin.version>
