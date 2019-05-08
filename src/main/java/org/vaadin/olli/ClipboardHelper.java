@@ -31,6 +31,10 @@ public class ClipboardHelper extends PolymerTemplate<ClipboardHelper.ClipboardHe
         wrap(component);
     }
 
+    public ClipboardHelper() {
+
+    }
+
     /**
      * Wrap a component so that clicking it will copy this helper's content to the clipboard.
      *
