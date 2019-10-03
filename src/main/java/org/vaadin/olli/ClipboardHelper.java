@@ -3,6 +3,7 @@ package org.vaadin.olli;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.HtmlImport;
+import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.component.polymertemplate.Id;
 import com.vaadin.flow.component.polymertemplate.PolymerTemplate;
@@ -12,6 +13,7 @@ import com.vaadin.flow.templatemodel.TemplateModel;
  * Clipboard Helper enables you to pass text content that will be copied to the clipboard when a wrapped Component is clicked.
  */
 @Tag("clipboard-helper")
+@JsModule("./clipboard-helper.js")
 @HtmlImport("clipboard-helper.html")
 public class ClipboardHelper extends PolymerTemplate<ClipboardHelper.ClipboardHelperModel> {
 
