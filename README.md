@@ -1,6 +1,6 @@
 # ClipboardHelper
 
-Vaadin 10 helper for copying text to clipboard
+Vaadin 14 helper for copying text to clipboard
 
 ## Development instructions
 
