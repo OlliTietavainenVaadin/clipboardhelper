@@ -5,7 +5,7 @@
 
     <groupId>org.vaadin.olli</groupId>
     <artifactId>clipboardhelper</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <name>ClipboardHelper</name>
     <description>Clipboard helper add-on for Vaadin 14</description>
 
