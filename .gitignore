@@ -6,6 +6,6 @@
 .project
 .settings/
 node_modules
-
+src/main/dev-bundle/
 *.iml
 .DS_Store
